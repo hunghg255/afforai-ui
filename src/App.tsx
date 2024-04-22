@@ -1,8 +1,8 @@
-import './App.css';
+import AppLayout from '@/layout/AppLayout/AppLayout';
 
 function App() {
   return (
-    <div className='App'>
+    <AppLayout>
       <div className='container'>
         <div className='row'>
           <div className='col'>Column</div>
@@ -10,7 +10,7 @@ function App() {
           <div className='col'>Column</div>
         </div>
       </div>
-    </div>
+    </AppLayout>
   );
 }
 
