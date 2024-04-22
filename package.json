@@ -13,9 +13,11 @@
     "analyze": "npm run lint && tsc && vite build --mode=analyze && source-map-explorer 'dist/assets/*.js'",
     "verify-commit": "verify-commit-msg",
     "postinstall": "git-scm-hooks",
-    "release": "bumpp -r"
+    "release": "bumpp -r",
+    "gen-icon": "csvgtocss -c 'afforai-icon'"
   },
   "dependencies": {
+    "classnames": "^2.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
