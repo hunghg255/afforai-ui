@@ -17,9 +17,12 @@
     "gen-icon": "csvgtocss -c 'afforai-icon'"
   },
   "dependencies": {
+    "@splidejs/react-splide": "^0.7.12",
     "classnames": "^2.5.1",
+    "rc-select": "^14.13.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "vaul": "^0.9.0"
   },
   "devDependencies": {
     "@hunghg255/eslint-config-react": "^0.0.18",

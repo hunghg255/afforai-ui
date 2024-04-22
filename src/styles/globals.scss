@@ -21,6 +21,10 @@ body {
   background: var(--gray-3);
 }
 
+body {
+  overflow-x: hidden;
+}
+
 main {
   height: 100%;
 }
