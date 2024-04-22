@@ -3,29 +3,22 @@ import React from 'react';
 
 import classNames from 'classnames';
 
-import { TCustomColor } from '@/components/UI/Text/text-custom.type';
 import { TColor } from '@/components/UI/Text/text.type';
 
 interface TextProps {
   children: React.ReactNode;
   type?:
-    | 'heading1-medium'
-    | 'heading2-medium'
-    | 'heading3-bold'
-    | 'heading3-medium'
-    | 'heading3-regular'
-    | 'heading4-regular'
-    | 'heading4-medium'
-    | 'heading5-bold'
-    | 'heading5-medium'
-    | 'heading5-regular'
-    | 'body-bold'
-    | 'body-medium'
-    | 'body-regular'
-    | 'body-underline'
-    | 'caption-regular'
+    | 'heading-large-semi-bold'
+    | 'heading-medium-semi-bold'
+    | 'heading-small-semi-bold'
+    | 'heading-x-small-semi-bold'
+    | 'paragraph-large-medium'
+    | 'paragraph-medium-medium'
+    | 'heading-x-small-medium'
+    | 'paragraph-small-medium'
+    | 'paragraph-small-medium-bold'
     | (string & {});
-  color?: TColor | TCustomColor;
+  color?: TColor;
   disabled?: boolean;
   state?: null | 'disable';
   className?: string | (string & {});

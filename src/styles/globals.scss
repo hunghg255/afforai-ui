@@ -18,35 +18,9 @@ body {
   font-size: 14px;
   line-height: normal;
   text-rendering: optimizeSpeed;
-  background-color: var(--bg);
-}
-
-body #root {
-  height: 100%;
-  max-width: 526px;
-  padding: 65px 0 0;
-  margin: 0 auto;
+  background: var(--gray-3);
 }
 
 main {
   height: 100%;
-}
-
-body.tc-disable-scroll {
-  position: unset !important;
-}
-
-/* total width */
-::-webkit-scrollbar {
-  width: 6px;
-}
-::-webkit-scrollbar:horizontal {
-  height: 6px;
-}
-
-/* scrollbar itself */
-::-webkit-scrollbar-thumb {
-  background-color: var(--primary-4);
-  border-radius: 8px;
-  border: 1px solid #fff;
 }
